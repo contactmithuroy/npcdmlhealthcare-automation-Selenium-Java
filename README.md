@@ -1,5 +1,5 @@
 
-``base/
+```bash
 npcdmlhealthcare-automation/
 │── pom.xml                     # Maven/Gradle config (dependencies, build plugins)
 │── requirements.properties     # Environment configs
@@ -73,3 +73,4 @@ npcdmlhealthcare-automation/
 ├── allure-report/               # Generated reports
 └── logs/                        # Execution logs
  
+```
