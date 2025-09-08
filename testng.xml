@@ -1,1 +1,21 @@
- 
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="NPC Healthcare Automation Suite" parallel="false">
+
+    <!-- Smoke Tests -->
+    <test name="Smoke Tests">
+        <classes>
+            <class name="com.npcdmlhealthcare.tests.login.LoginTest"/>
+            <class name="com.npcdmlhealthcare.tests.dashboard.DashboardTest"/>
+        </classes>
+    </test>
+
+    <!-- Regression Tests
+    <test name="Regression Tests">
+        <classes>
+            <class name="com.npcdmlhealthcare.tests.AppointmentTest"/>
+            <class name="com.npcdmlhealthcare.tests.AssessmentTest"/>
+        </classes>
+    </test>
+     -->
+
+</suite>
