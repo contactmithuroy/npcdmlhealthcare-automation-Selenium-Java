@@ -1,1 +1,4 @@
- 
+username,password,expectedResult
+validUser@test.com,Valid123!,success
+wrongUser@test.com,Valid123!,failure
+validUser@test.com,wrongPass,failure

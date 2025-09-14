@@ -1,37 +1,40 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
-                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.npcdmlhealthcare</groupId>
+    <groupId>npcdmlhealthcare-automation</groupId>
     <artifactId>npcdmlhealthcare-automation</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <version>0.0.1-SNAPSHOT</version>
     <name>NPCDML Healthcare Automation</name>
     <description>Automation framework for NPC Healthcare project</description>
 
-    <!-- Java Version -->
+    <!-- Java + Dependency Versions -->
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <surefire.version>3.1.2</surefire.version>
-        <testng.version>7.8.0</testng.version>
-        <selenium.version>4.13.0</selenium.version>
-        <allure.version>2.24.0</allure.version>
-        <webdriver.manager.version>5.8.0</webdriver.manager.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        
+        <!-- Versions -->
+        <surefire.version>3.2.5</surefire.version>
+        <testng.version>7.10.2</testng.version>
+        <selenium.version>4.23.0</selenium.version>
+        <allure.version>2.29.0</allure.version>
+        <webdriver.manager.version>5.9.2</webdriver.manager.version>
+        <log4j.version>2.24.2</log4j.version>
+        <poi.version>5.3.0</poi.version>
+        <jackson.version>2.18.1</jackson.version>
+        <compiler.plugin.version>3.12.1</compiler.plugin.version>
+        <allure.maven.version>2.13.0</allure.maven.version>
     </properties>
 
     <!-- Dependencies -->
     <dependencies>
-
-        <!-- TestNG -->
+        <!-- TestNG (REMOVED test scope since used in main code) -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
-            <scope>test</scope>
         </dependency>
 
         <!-- Selenium -->
@@ -48,66 +51,76 @@
             <version>${webdriver.manager.version}</version>
         </dependency>
 
-        <!-- Allure Reports (TestNG Adapter) -->
+        <!-- Allure TestNG Integration (REMOVED test scope) -->
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>${allure.version}</version>
-            <scope>test</scope>
         </dependency>
 
-        <!-- Apache POI (Excel Data-Driven Testing) -->
+        <!-- Allure Java Commons (for @Attachment, lifecycle API) -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-java-commons</artifactId>
+            <version>${allure.version}</version>
+        </dependency>
+
+        <!-- Apache POI (Excel for Data-Driven Testing) -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>5.2.5</version>
+            <version>${poi.version}</version>
         </dependency>
 
-        <!-- Jackson (JSON Parsing, if needed later) -->
+        <!-- Jackson (JSON parsing) -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.16.0</version>
+            <version>${jackson.version}</version>
         </dependency>
 
-        <!-- Log4j2 (Logging) -->
+        <!-- Log4j2 -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.20.0</version>
+            <version>${log4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
-            <version>2.20.0</version>
+            <version>${log4j.version}</version>
         </dependency>
-
     </dependencies>
 
     <!-- Build Plugins -->
     <build>
         <plugins>
-
-            <!-- Compiler -->
+            <!-- Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
+                <version>${compiler.plugin.version}</version>
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
 
-            <!-- Surefire (Test Execution with TestNG) -->
+            <!-- Surefire Plugin (Test Execution) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefire.version}</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                    </properties>
                 </configuration>
             </plugin>
 
@@ -115,11 +128,9 @@
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
-                <version>2.12.0</version>
+                <version>${allure.maven.version}</version>
+                
             </plugin>
-
         </plugins>
     </build>
-
 </project>
- 

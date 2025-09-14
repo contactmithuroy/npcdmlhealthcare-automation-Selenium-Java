@@ -1,0 +1,10 @@
+#Allure to use target directory
+mvn allure:report
+mvn test -Dallure.results.directory=target/allure-results
+# Then generate report
+mvn allure:report
+# Then generate HTML report
+mvn allure:serve
+
+
+

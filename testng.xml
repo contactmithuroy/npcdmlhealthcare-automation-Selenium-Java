@@ -1,21 +1,22 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="NPC Healthcare Automation Suite" parallel="false">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-    <!-- Smoke Tests -->
-    <test name="Smoke Tests">
-        <classes>
-            <class name="com.npcdmlhealthcare.tests.login.LoginTest"/>
-            <class name="com.npcdmlhealthcare.tests.dashboard.DashboardTest"/>
+<suite name="Suite">
+<listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+</listeners>
+  
+  <test name="Browser Tests">
+        <classes> <!--
+        	<class name="com.npcdmlhealthcare.tests.login.DoctorLoginTest"/> -->
+            <class name="com.npcdmlhealthcare.tests.appointment.AppointmentTest"/> 
+            <class name="com.npcdmlhealthcare.tests.appointmentmail.AppointmentEmailTest"/>
+            <class name="com.npcdmlhealthcare.tests.login.PatientRegistrationTest"/> 
+              
+               
+              
         </classes>
     </test>
-
-    <!-- Regression Tests
-    <test name="Regression Tests">
-        <classes>
-            <class name="com.npcdmlhealthcare.tests.AppointmentTest"/>
-            <class name="com.npcdmlhealthcare.tests.AssessmentTest"/>
-        </classes>
-    </test>
-     -->
-
-</suite>
+    
+    
+</suite> <!-- Suite -->

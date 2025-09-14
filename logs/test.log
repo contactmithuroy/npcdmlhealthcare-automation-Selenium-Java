@@ -1,0 +1,335 @@
+[2025-09-15 00:10:09] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:10:09] [INFO ] [main] AppointmentEmailTest - Appointment mail check environment loaded
+[2025-09-15 00:10:09] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:10:09] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:10:09] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:10:09] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:10:16] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:10:16] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:10:17] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:10:17] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:10:19] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:10:19] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:16:33] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:16:33] [INFO ] [main] AppointmentEmailTest - Appointment mail check environment loaded
+[2025-09-15 00:16:34] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:16:34] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:16:34] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:16:34] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:16:38] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:16:38] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:16:38] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:16:38] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:16:40] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:16:40] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:19:20] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:19:20] [INFO ] [main] AppointmentEmailTest - Appointment mail check environment loaded
+[2025-09-15 00:19:20] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:19:20] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:19:20] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:19:20] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:19:26] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:19:26] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:19:30] [INFO ] [main] AppointmentEmailPage - Opened Yopmail homepage
+[2025-09-15 00:19:30] [INFO ] [main] AllureReportManager - 🔖 Step: Opened Yopmail homepage
+[2025-09-15 00:19:31] [INFO ] [main] AppointmentEmailPage - Entered patient email: testbymithu12@yopmail.com
+[2025-09-15 00:19:31] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: testbymithu12@yopmail.com
+[2025-09-15 00:19:33] [INFO ] [main] AppointmentEmailPage - Clicked on Check Inbox button
+[2025-09-15 00:19:33] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked on Check Inbox button
+[2025-09-15 00:19:54] [INFO ] [main] ScreenshotUtil - Screenshot captured: C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_001954.png
+[2025-09-15 00:19:54] [INFO ] [main] AllureReportManager - 📸 Capturing screenshot for Allure: verifyAppointmentMailTest
+[2025-09-15 00:19:54] [ERROR] [main] AppointmentEmailTest - Test failed: verifyAppointmentMailTest. Screenshot captured at C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_001954.png
+[2025-09-15 00:19:54] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:19:54] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:19:55] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:19:55] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:21:33] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:21:33] [INFO ] [main] AppointmentEmailTest - Appointment mail check environment loaded
+[2025-09-15 00:21:33] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:21:33] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:21:33] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:21:33] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:21:38] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:21:38] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:21:42] [INFO ] [main] AppointmentEmailPage - Opened Yopmail homepage
+[2025-09-15 00:21:42] [INFO ] [main] AllureReportManager - 🔖 Step: Opened Yopmail homepage
+[2025-09-15 00:21:43] [INFO ] [main] AppointmentEmailPage - Entered patient email: testbymithu12@yopmail.com
+[2025-09-15 00:21:43] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: testbymithu12@yopmail.com
+[2025-09-15 00:21:44] [INFO ] [main] AppointmentEmailPage - Clicked on Check Inbox button
+[2025-09-15 00:21:44] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked on Check Inbox button
+[2025-09-15 00:22:05] [INFO ] [main] ScreenshotUtil - Screenshot captured: C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_002205.png
+[2025-09-15 00:22:05] [INFO ] [main] AllureReportManager - 📸 Capturing screenshot for Allure: verifyAppointmentMailTest
+[2025-09-15 00:22:05] [ERROR] [main] AppointmentEmailTest - Test failed: verifyAppointmentMailTest. Screenshot captured at C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_002205.png
+[2025-09-15 00:22:05] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:22:05] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:22:06] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:22:06] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:24:18] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:24:18] [INFO ] [main] AppointmentEmailTest - Appointment mail check environment loaded
+[2025-09-15 00:24:18] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:24:18] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:24:18] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:24:18] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:24:23] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:24:23] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:24:27] [INFO ] [main] AppointmentEmailPage - Opened Yopmail homepage
+[2025-09-15 00:24:27] [INFO ] [main] AllureReportManager - 🔖 Step: Opened Yopmail homepage
+[2025-09-15 00:24:28] [INFO ] [main] AppointmentEmailPage - Entered patient email: testbymithu12@yopmail.com
+[2025-09-15 00:24:28] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: testbymithu12@yopmail.com
+[2025-09-15 00:24:30] [INFO ] [main] AppointmentEmailPage - Clicked on Check Inbox button
+[2025-09-15 00:24:30] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked on Check Inbox button
+[2025-09-15 00:24:31] [INFO ] [main] AppointmentEmailPage - Opened first appointment mail
+[2025-09-15 00:24:31] [INFO ] [main] AllureReportManager - 🔖 Step: Opened first appointment mail
+[2025-09-15 00:24:51] [INFO ] [main] ScreenshotUtil - Screenshot captured: C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_002451.png
+[2025-09-15 00:24:51] [INFO ] [main] AllureReportManager - 📸 Capturing screenshot for Allure: verifyAppointmentMailTest
+[2025-09-15 00:24:52] [ERROR] [main] AppointmentEmailTest - Test failed: verifyAppointmentMailTest. Screenshot captured at C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_002451.png
+[2025-09-15 00:24:52] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:24:52] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:24:52] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:24:52] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:25:36] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:25:36] [INFO ] [main] AppointmentEmailTest - Appointment mail check environment loaded
+[2025-09-15 00:25:36] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:25:36] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:25:36] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:25:36] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:25:41] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:25:41] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:25:45] [INFO ] [main] AppointmentEmailPage - Opened Yopmail homepage
+[2025-09-15 00:25:45] [INFO ] [main] AllureReportManager - 🔖 Step: Opened Yopmail homepage
+[2025-09-15 00:25:46] [INFO ] [main] AppointmentEmailPage - Entered patient email: testbymithu12@yopmail.com
+[2025-09-15 00:25:46] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: testbymithu12@yopmail.com
+[2025-09-15 00:25:47] [INFO ] [main] AppointmentEmailPage - Clicked on Check Inbox button
+[2025-09-15 00:25:47] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked on Check Inbox button
+[2025-09-15 00:25:48] [INFO ] [main] AppointmentEmailPage - Opened first appointment mail
+[2025-09-15 00:25:48] [INFO ] [main] AllureReportManager - 🔖 Step: Opened first appointment mail
+[2025-09-15 00:25:48] [INFO ] [main] AppointmentEmailPage - Complete Assessment button present: true
+[2025-09-15 00:25:48] [INFO ] [main] AllureReportManager - 🔖 Step: Complete Assessment button present: true
+[2025-09-15 00:25:49] [INFO ] [main] AppointmentEmailPage - Clicked Complete Assessment button
+[2025-09-15 00:25:49] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Complete Assessment button
+[2025-09-15 00:25:49] [INFO ] [main] AllureReportManager - 🔖 Step: Complete Assessment button verified and clicked
+[2025-09-15 00:25:49] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:25:49] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:25:50] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:25:50] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:28:43] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:28:43] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:28:43] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:28:43] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:28:43] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:28:47] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:28:47] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:29:00] [INFO ] [main] DoctorLoginPage - Entered email: qa.mithuroy@gmail.com
+[2025-09-15 00:29:00] [INFO ] [main] AllureReportManager - 🔖 Step: Entered email: qa.mithuroy@gmail.com
+[2025-09-15 00:29:00] [INFO ] [main] DoctorLoginPage - Entered password
+[2025-09-15 00:29:00] [INFO ] [main] AllureReportManager - 🔖 Step: Entered password
+[2025-09-15 00:29:00] [INFO ] [main] DoctorLoginPage - Clicked Sign In button
+[2025-09-15 00:29:00] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Sign In button
+[2025-09-15 00:29:03] [INFO ] [main] DoctorLoginPage - Doctor successfully logged in, dashboard loaded
+[2025-09-15 00:29:03] [INFO ] [main] AllureReportManager - 🔖 Step: Doctor successfully logged in, dashboard loaded
+[2025-09-15 00:29:04] [INFO ] [main] AppointmentPage - Clicked Appointment Logo via JS
+[2025-09-15 00:29:04] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Appointment Logo via JS
+[2025-09-15 00:29:05] [INFO ] [main] AppointmentPage - Entered patient name: Test Patient
+[2025-09-15 00:29:05] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient name: Test Patient
+[2025-09-15 00:29:06] [INFO ] [main] AppointmentPage - Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:29:06] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:29:07] [INFO ] [main] AppointmentPage - Selected body regions: Neck, UE, Back, LE
+[2025-09-15 00:29:07] [INFO ] [main] AllureReportManager - 🔖 Step: Selected body regions: Neck, UE, Back, LE
+[2025-09-15 00:29:08] [INFO ] [main] AppointmentPage - Selected appointment date as Today
+[2025-09-15 00:29:08] [INFO ] [main] AllureReportManager - 🔖 Step: Selected appointment date as Today
+[2025-09-15 00:29:09] [INFO ] [main] AppointmentPage - Selected appointment time
+[2025-09-15 00:29:09] [INFO ] [main] AllureReportManager - 🔖 Step: Selected appointment time
+[2025-09-15 00:29:09] [INFO ] [main] AppointmentPage - Clicked Submit button
+[2025-09-15 00:29:09] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Submit button
+[2025-09-15 00:29:09] [INFO ] [main] AllureReportManager - 🔖 Step: Appointment created successfully for Test Patient
+[2025-09-15 00:29:09] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:29:09] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:29:10] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:29:10] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:29:10] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:29:10] [INFO ] [main] AppointmentEmailTest - Appointment mail check environment loaded
+[2025-09-15 00:29:10] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:29:10] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:29:10] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:29:10] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:29:13] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:29:13] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:29:16] [INFO ] [main] AppointmentEmailPage - Opened Yopmail homepage
+[2025-09-15 00:29:16] [INFO ] [main] AllureReportManager - 🔖 Step: Opened Yopmail homepage
+[2025-09-15 00:29:16] [INFO ] [main] AppointmentEmailPage - Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:29:16] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:29:19] [INFO ] [main] AppointmentEmailPage - Clicked on Check Inbox button
+[2025-09-15 00:29:19] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked on Check Inbox button
+[2025-09-15 00:29:39] [INFO ] [main] ScreenshotUtil - Screenshot captured: C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_002939.png
+[2025-09-15 00:29:39] [INFO ] [main] AllureReportManager - 📸 Capturing screenshot for Allure: verifyAppointmentMailTest
+[2025-09-15 00:29:39] [ERROR] [main] AppointmentEmailTest - Test failed: verifyAppointmentMailTest. Screenshot captured at C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_002939.png
+[2025-09-15 00:29:39] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:29:39] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:29:40] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:29:40] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:29:40] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:29:40] [INFO ] [main] DoctorLoginTest - Environment properties loaded
+[2025-09-15 00:29:40] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:29:40] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:29:40] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:29:40] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:29:42] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:29:42] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:29:46] [INFO ] [main] DoctorLoginTest - Navigated to Doctor Portal: https://npcdev.deepmindlabs.ai/
+[2025-09-15 00:29:46] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Doctor Portal
+[2025-09-15 00:29:46] [INFO ] [main] DoctorLoginPage - Entered email: qa.mithuroy@gmail.com
+[2025-09-15 00:29:46] [INFO ] [main] AllureReportManager - 🔖 Step: Entered email: qa.mithuroy@gmail.com
+[2025-09-15 00:29:46] [INFO ] [main] DoctorLoginPage - Entered password
+[2025-09-15 00:29:46] [INFO ] [main] AllureReportManager - 🔖 Step: Entered password
+[2025-09-15 00:29:47] [INFO ] [main] DoctorLoginPage - Clicked Sign In button
+[2025-09-15 00:29:47] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Sign In button
+[2025-09-15 00:29:48] [INFO ] [main] DoctorLoginPage - Doctor successfully logged in, dashboard loaded
+[2025-09-15 00:29:48] [INFO ] [main] AllureReportManager - 🔖 Step: Doctor successfully logged in, dashboard loaded
+[2025-09-15 00:29:49] [INFO ] [main] DoctorLoginTest - Current URL after login: https://npcdev.deepmindlabs.ai/dashboard
+[2025-09-15 00:29:49] [INFO ] [main] AllureReportManager - 🔖 Step: Current URL after login: https://npcdev.deepmindlabs.ai/dashboard
+[2025-09-15 00:29:49] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:29:49] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:29:49] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:29:49] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:29:49] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:29:49] [INFO ] [main] PatientRegistrationTest - Patient environment properties loaded
+[2025-09-15 00:29:49] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:29:49] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:29:49] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:29:49] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:29:52] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:29:52] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:29:56] [INFO ] [main] PatientRegistrationTest - Navigated to Patient Portal: https://npcdev.deepmindlabs.ai/
+[2025-09-15 00:29:56] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Patient Portal
+[2025-09-15 00:29:56] [INFO ] [main] PatientRegistrationPage - Navigated to Registration page
+[2025-09-15 00:29:56] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Registration page
+[2025-09-15 00:29:57] [INFO ] [main] PatientRegistrationPage - Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:29:57] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:29:57] [INFO ] [main] PatientRegistrationPage - Clicked Next button after email
+[2025-09-15 00:29:57] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Next button
+[2025-09-15 00:29:59] [INFO ] [main] PatientRegistrationPage - Entered password and confirm password
+[2025-09-15 00:29:59] [INFO ] [main] AllureReportManager - 🔖 Step: Entered password and confirm password
+[2025-09-15 00:29:59] [INFO ] [main] PatientRegistrationPage - Clicked Register button
+[2025-09-15 00:29:59] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Register button
+[2025-09-15 00:29:59] [INFO ] [main] PatientRegistrationTest - Patient can register successfullyhttps://npcdev.deepmindlabs.ai/register
+[2025-09-15 00:29:59] [INFO ] [main] AllureReportManager - 🔖 Step: Patient can register successfully
+[2025-09-15 00:29:59] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:29:59] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:30:00] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:30:00] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:30:00] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:30:00] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:30:00] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:30:00] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:30:02] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:30:02] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:30:07] [INFO ] [main] PatientRegistrationTest - Navigated to Patient Portal: https://npcdev.deepmindlabs.ai/
+[2025-09-15 00:30:07] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Patient Portal
+[2025-09-15 00:30:07] [INFO ] [main] PatientRegistrationPage - Navigated to Registration page
+[2025-09-15 00:30:07] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Registration page
+[2025-09-15 00:30:08] [INFO ] [main] PatientRegistrationPage - Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:30:08] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:30:08] [INFO ] [main] PatientRegistrationPage - Clicked Next button after email
+[2025-09-15 00:30:08] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Next button
+[2025-09-15 00:30:09] [INFO ] [main] AllureReportManager - 🔖 Step: Duplicate email modal text: Email Already Registered
+[2025-09-15 00:30:09] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:30:09] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:30:10] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:30:10] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:31:18] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:31:18] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:31:18] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:31:18] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:31:18] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:31:22] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:31:22] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:31:27] [INFO ] [main] DoctorLoginPage - Entered email: qa.mithuroy@gmail.com
+[2025-09-15 00:31:27] [INFO ] [main] AllureReportManager - 🔖 Step: Entered email: qa.mithuroy@gmail.com
+[2025-09-15 00:31:27] [INFO ] [main] DoctorLoginPage - Entered password
+[2025-09-15 00:31:27] [INFO ] [main] AllureReportManager - 🔖 Step: Entered password
+[2025-09-15 00:31:27] [INFO ] [main] DoctorLoginPage - Clicked Sign In button
+[2025-09-15 00:31:27] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Sign In button
+[2025-09-15 00:31:29] [INFO ] [main] DoctorLoginPage - Doctor successfully logged in, dashboard loaded
+[2025-09-15 00:31:29] [INFO ] [main] AllureReportManager - 🔖 Step: Doctor successfully logged in, dashboard loaded
+[2025-09-15 00:31:30] [INFO ] [main] AppointmentPage - Clicked Appointment Logo via JS
+[2025-09-15 00:31:30] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Appointment Logo via JS
+[2025-09-15 00:31:31] [INFO ] [main] AppointmentPage - Entered patient name: Test Patient
+[2025-09-15 00:31:31] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient name: Test Patient
+[2025-09-15 00:31:33] [INFO ] [main] AppointmentPage - Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:31:33] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:31:34] [INFO ] [main] AppointmentPage - Selected body regions: Neck, UE, Back, LE
+[2025-09-15 00:31:34] [INFO ] [main] AllureReportManager - 🔖 Step: Selected body regions: Neck, UE, Back, LE
+[2025-09-15 00:31:36] [INFO ] [main] AppointmentPage - Selected appointment date as Today
+[2025-09-15 00:31:36] [INFO ] [main] AllureReportManager - 🔖 Step: Selected appointment date as Today
+[2025-09-15 00:31:37] [INFO ] [main] AppointmentPage - Selected appointment time
+[2025-09-15 00:31:37] [INFO ] [main] AllureReportManager - 🔖 Step: Selected appointment time
+[2025-09-15 00:31:38] [INFO ] [main] AppointmentPage - Clicked Submit button
+[2025-09-15 00:31:38] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Submit button
+[2025-09-15 00:31:38] [INFO ] [main] AllureReportManager - 🔖 Step: Appointment created successfully for Test Patient
+[2025-09-15 00:31:38] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:31:38] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:31:39] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:31:39] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:31:39] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:31:39] [INFO ] [main] AppointmentEmailTest - Appointment mail check environment loaded
+[2025-09-15 00:31:39] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:31:39] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:31:39] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:31:39] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:31:42] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:31:42] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:31:45] [INFO ] [main] AppointmentEmailPage - Opened Yopmail homepage
+[2025-09-15 00:31:45] [INFO ] [main] AllureReportManager - 🔖 Step: Opened Yopmail homepage
+[2025-09-15 00:31:45] [INFO ] [main] AppointmentEmailPage - Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:31:45] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:31:46] [INFO ] [main] AppointmentEmailPage - Clicked on Check Inbox button
+[2025-09-15 00:31:46] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked on Check Inbox button
+[2025-09-15 00:32:08] [INFO ] [main] ScreenshotUtil - Screenshot captured: C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_003208.png
+[2025-09-15 00:32:08] [INFO ] [main] AllureReportManager - 📸 Capturing screenshot for Allure: verifyAppointmentMailTest
+[2025-09-15 00:32:08] [ERROR] [main] AppointmentEmailTest - Test failed: verifyAppointmentMailTest. Screenshot captured at C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/verifyAppointmentMailTest_20250915_003208.png
+[2025-09-15 00:32:08] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:32:08] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:32:08] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:32:08] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:32:08] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:32:08] [INFO ] [main] PatientRegistrationTest - Patient environment properties loaded
+[2025-09-15 00:32:08] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:32:08] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:32:08] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:32:08] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:32:11] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:32:11] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:32:15] [INFO ] [main] PatientRegistrationTest - Navigated to Patient Portal: https://npcdev.deepmindlabs.ai/
+[2025-09-15 00:32:15] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Patient Portal
+[2025-09-15 00:32:16] [INFO ] [main] PatientRegistrationPage - Navigated to Registration page
+[2025-09-15 00:32:16] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Registration page
+[2025-09-15 00:32:17] [INFO ] [main] PatientRegistrationPage - Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:32:17] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:32:17] [INFO ] [main] PatientRegistrationPage - Clicked Next button after email
+[2025-09-15 00:32:17] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Next button
+[2025-09-15 00:32:37] [INFO ] [main] ScreenshotUtil - Screenshot captured: C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/patientRegistrationSuccessTest_20250915_003237.png
+[2025-09-15 00:32:37] [INFO ] [main] AllureReportManager - 📸 Capturing screenshot for Allure: patientRegistrationSuccessTest
+[2025-09-15 00:32:37] [ERROR] [main] PatientRegistrationTest - Test failed: patientRegistrationSuccessTest. Screenshot captured at C:\Users\MITHU\Desktop\helthcare\npcdmlhealthcare-automation/screenshots/patientRegistrationSuccessTest_20250915_003237.png
+[2025-09-15 00:32:37] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:32:37] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:32:38] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:32:38] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
+[2025-09-15 00:32:38] [INFO ] [main] BasePage - ========== Starting Test Setup ==========
+[2025-09-15 00:32:38] [INFO ] [main] ConfigReader - Loaded environment properties from: environment.properties
+[2025-09-15 00:32:38] [INFO ] [main] BasePage - Browser selected from environment.properties: chrome
+[2025-09-15 00:32:38] [INFO ] [main] DriverFactory - 🚀 Initializing WebDriver for browser: chrome
+[2025-09-15 00:32:40] [INFO ] [main] DriverFactory - ✅ chrome browser launched successfully.
+[2025-09-15 00:32:40] [INFO ] [main] BasePage - ========== Test Setup Completed ==========
+[2025-09-15 00:32:44] [INFO ] [main] PatientRegistrationTest - Navigated to Patient Portal: https://npcdev.deepmindlabs.ai/
+[2025-09-15 00:32:44] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Patient Portal
+[2025-09-15 00:32:45] [INFO ] [main] PatientRegistrationPage - Navigated to Registration page
+[2025-09-15 00:32:45] [INFO ] [main] AllureReportManager - 🔖 Step: Navigated to Registration page
+[2025-09-15 00:32:45] [INFO ] [main] PatientRegistrationPage - Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:32:45] [INFO ] [main] AllureReportManager - 🔖 Step: Entered patient email: npcdemotest@yopmail.com
+[2025-09-15 00:32:45] [INFO ] [main] PatientRegistrationPage - Clicked Next button after email
+[2025-09-15 00:32:45] [INFO ] [main] AllureReportManager - 🔖 Step: Clicked Next button
+[2025-09-15 00:32:46] [INFO ] [main] AllureReportManager - 🔖 Step: Duplicate email modal text: Email Already Registered
+[2025-09-15 00:32:46] [INFO ] [main] BasePage - ========== Starting Test Teardown ==========
+[2025-09-15 00:32:46] [INFO ] [main] DriverFactory - 🛑 Closing WebDriver session...
+[2025-09-15 00:32:47] [INFO ] [main] DriverFactory - 👋 WebDriver closed and cleaned up.
+[2025-09-15 00:32:47] [INFO ] [main] BasePage - ========== Test Teardown Completed ==========
