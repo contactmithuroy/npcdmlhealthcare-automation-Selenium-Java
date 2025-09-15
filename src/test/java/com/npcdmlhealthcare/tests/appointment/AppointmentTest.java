@@ -40,15 +40,18 @@ public class AppointmentTest extends BasePage {
     }
 
     @BeforeMethod(alwaysRun = true)
-    public void openDoctorPortal() {
+    public void openDoctorPortal() throws InterruptedException {
         driver.get(doctorUrl);
         doctorLoginPage = new DoctorLoginPage(driver);
         appointmentPage = new AppointmentPage(driver);
         doctorLoginPage.loginAsDoctor(doctorEmail, doctorPassword);
+        Thread.sleep(3000);
     }
 
-    @Test(description = "Create new appointment for patient")
-    public void createAppointmentTest() {
+    @Test(description = "Create new appointment for patient",
+    		dependsOnGroups = "doctorLogin", groups= "appointmentTest")
+    
+    public void createAppointmentTest() throws InterruptedException {
         appointmentPage.clickAppointmentLogo();
         appointmentPage.enterPatientName("Test Patient");
         appointmentPage.enterPatientEmail(patientEmail);
@@ -56,6 +59,7 @@ public class AppointmentTest extends BasePage {
         appointmentPage.selectTodayDate();
         appointmentPage.selectAppointmentTime();
         appointmentPage.clickSubmit();
+        Thread.sleep(5000);
         AllureReportManager.logStep("Appointment created successfully for Test Patient");
     }
 

@@ -7,7 +7,11 @@ import com.npcdmlhealthcare.utils.ConfigReader;
 import com.npcdmlhealthcare.utils.LoggerUtil;
 import com.npcdmlhealthcare.utils.ScreenshotUtil;
 
+import java.time.Duration;
+
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -37,17 +41,17 @@ public class DoctorLoginTest extends BasePage {
         doctorLoginPage = new DoctorLoginPage(driver);
     }
 
-    @Test(priority = 1, description = "Verify Doctor can login successfully to dashboard")
+    @Test(priority = 1, description = "Verify Doctor can login successfully to dashboard", groups = "doctorLogin")
     public void doctorLoginTest() {
         try {
             doctorLoginPage.loginAsDoctor(doctorEmail, doctorPassword);
 
-            String currentUrl = driver.getCurrentUrl();
-            logger.info("Current URL after login: {}", currentUrl);
-            AllureReportManager.logStep("Current URL after login: " + currentUrl);
+            new WebDriverWait(driver, Duration.ofSeconds(5))
+            .until(ExpectedConditions.urlContains("/dashboard"));
 
-            Assert.assertTrue(currentUrl.contains("/dashboard"),
-                    "Dashboard not loaded after login. Current URL: " + currentUrl);
+		    String currentUrl = driver.getCurrentUrl();
+		    Assert.assertTrue(currentUrl.contains("/dashboard"),
+		            "Dashboard not loaded correctly. Current URL: " + currentUrl);
 
         } catch (Exception e) {
             logger.error("Doctor login test failed: {}", e.getMessage(), e);

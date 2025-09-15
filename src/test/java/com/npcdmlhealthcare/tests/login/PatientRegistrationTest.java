@@ -44,18 +44,25 @@ public class PatientRegistrationTest extends BasePage {
         patientRegistrationPage = new PatientRegistrationPage(driver);
     }
 
-    @Test(priority = 1, description = "Patient can register successfully")
-    public void patientRegistrationSuccessTest() {
-        patientRegistrationPage.registerPatient(patientEmail, patientPassword);
-        new WebDriverWait(driver, Duration.ofSeconds(10));
+    @Test(priority = 1, description = "Patient can register successfully", dependsOnGroups = "appointmentTest", groups = "patientRegistrationSuccessTest")
+    
+    public void patientRegistrationSuccessTest() throws InterruptedException {
+        String previousUrl = driver.getCurrentUrl();
         
-        String currentUrl = driver.getCurrentUrl();
-        logger.info("Patient can register successfully"+ currentUrl);
-        AllureReportManager.logStep("Patient can register successfully");
+        patientRegistrationPage.registerPatient(patientEmail, patientPassword);
 
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.not(ExpectedConditions.urlToBe(previousUrl)));
+
+        Thread.sleep(3000);
+
+        String currentUrl = driver.getCurrentUrl();
+        logger.info("Patient redirected successfully to: " + currentUrl);
+        AllureReportManager.logStep("Patient redirected successfully to: " + currentUrl);
     }
 
-    @Test(priority = 2, description = "Patient registration fails if email already exists")
+    @Test(priority = 2, description = "Patient registration fails if email already exists",
+    		dependsOnMethods = "patientRegistrationSuccessTest", dependsOnGroups = "appointmentTest")
     public void patientRegistrationDuplicateEmailTest() {
         // Open registration page again
         patientRegistrationPage.openRegistrationPage();

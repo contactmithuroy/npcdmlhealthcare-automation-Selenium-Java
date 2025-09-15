@@ -38,7 +38,7 @@ public class AppointmentEmailTest extends BasePage {
         mailCheckPage.openYopmail(yopmail);
     }
 
-    @Test(priority = 1, description = "Verify appointment mail and Complete Assessment button")
+    @Test(priority = 1, description = "Verify appointment mail and Complete Assessment button", dependsOnGroups = "appointmentTest")
     public void verifyAppointmentMailTest() {
         mailCheckPage.enterEmail(patientEmail);
         mailCheckPage.clickCheckInbox();

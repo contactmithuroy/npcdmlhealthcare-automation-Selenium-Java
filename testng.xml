@@ -6,12 +6,21 @@
     <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
 </listeners>
   
-  <test name="Browser Tests">
-        <classes> <!--
-        	<class name="com.npcdmlhealthcare.tests.login.DoctorLoginTest"/> -->
+  <test name=" Tests">
+        <classes> <!-- -->
+        	<class name="com.npcdmlhealthcare.tests.login.DoctorLoginTest"/> 
+        	
             <class name="com.npcdmlhealthcare.tests.appointment.AppointmentTest"/> 
-            <class name="com.npcdmlhealthcare.tests.appointmentmail.AppointmentEmailTest"/>
+
             <class name="com.npcdmlhealthcare.tests.login.PatientRegistrationTest"/> 
+
+            <class name="com.npcdmlhealthcare.tests.appointmentmail.AppointmentEmailTest"/>
+            
+            <class name="com.npcdmlhealthcare.tests.login.PatientLoginTest"/>
+            
+            <class name="com.npcdmlhealthcare.tests.login.ChatBotTest"/>
+            
+                        
               
                
               

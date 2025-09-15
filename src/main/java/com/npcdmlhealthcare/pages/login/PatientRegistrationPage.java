@@ -93,7 +93,6 @@ public class PatientRegistrationPage extends BasePage {
         clickNext();
         setPassword(password);
         clickRegister();
-        new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
 }
